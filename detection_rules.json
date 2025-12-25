@@ -1,0 +1,23 @@
+[
+  {
+    "process": "powershell.exe",
+    "indicator": "-enc",
+    "finding": "Encoded PowerShell execution",
+    "risk": "High",
+    "reason": "Encoded commands are commonly used to evade detection"
+  },
+  {
+    "process": "mshta.exe",
+    "indicator": "http",
+    "finding": "Remote script execution via mshta",
+    "risk": "High",
+    "reason": "mshta is frequently abused to execute remote content"
+  },
+  {
+    "process": "certutil.exe",
+    "indicator": "-urlcache",
+    "finding": "Suspicious file download via certutil",
+    "risk": "Medium",
+    "reason": "certutil can be abused for file transfer"
+  }
+]

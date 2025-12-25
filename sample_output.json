@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2025-02-01 10:00",
+    "process": "powershell.exe",
+    "finding": "Encoded PowerShell execution",
+    "risk": "High",
+    "reason": "Encoded commands are commonly used to evade detection"
+  },
+  {
+    "timestamp": "2025-02-01 10:01",
+    "process": "mshta.exe",
+    "finding": "Remote script execution via mshta",
+    "risk": "High",
+    "reason": "mshta is frequently abused to execute remote content"
+  },
+  {
+    "timestamp": "2025-02-01 10:02",
+    "process": "certutil.exe",
+    "finding": "Suspicious file download via certutil",
+    "risk": "Medium",
+    "reason": "certutil can be abused for file transfer"
+  }
+]

